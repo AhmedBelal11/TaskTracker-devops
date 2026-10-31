@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TaskTracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>TaskTracker</h1>
+    <form id="new-task">
+      <input id="title" placeholder="New task title" required maxlength="200">
+      <button type="submit">Add</button>
+    </form>
+    <p id="error" role="alert"></p>
+    <ul id="tasks"></ul>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
